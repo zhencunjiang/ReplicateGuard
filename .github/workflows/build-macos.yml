@@ -6,11 +6,19 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: replicateguard-release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   macos:
     runs-on: macos-14
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         arch:
           - arm64
@@ -51,5 +59,15 @@ jobs:
         with:
           name: ReplicateGuard-macOS-${{ matrix.arch }}
           path: |
+            desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg
+            desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg.blockmap
+
+      - name: Attach installer to GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          fail_on_unmatched_files: true
+          files: |
             desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg
             desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg.blockmap

@@ -20,7 +20,7 @@
     "dist:win": "pnpm run build && electron-builder --win nsis --x64"
   },
   "devDependencies": {
-    "@types/node": "24.10.13",
+    "@types/node": "26.1.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",

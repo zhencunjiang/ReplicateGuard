@@ -34,7 +34,7 @@ jobs:
             python-version: "3.13"
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install Python
         uses: actions/setup-python@v5
@@ -74,7 +74,7 @@ jobs:
         working-directory: ${{ matrix.directory }}
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4

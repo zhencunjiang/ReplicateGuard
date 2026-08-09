@@ -1,0 +1,8 @@
+*.csv -text
+*.tsv -text
+*.mtx -text
+*.gz binary
+*.png binary
+*.dmg binary
+*.exe binary
+*.zip binary

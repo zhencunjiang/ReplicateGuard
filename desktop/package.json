@@ -1,0 +1,100 @@
+{
+  "name": "replicateguard-desktop",
+  "version": "0.1.0",
+  "description": "Local empty-droplet, doublet, and differential-expression QC for single-cell studies",
+  "main": "out/main/index.js",
+  "author": "ReplicateGuard contributors",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "pnpm run typecheck && pnpm run test && pnpm run build",
+    "pack": "pnpm run build && electron-builder --dir",
+    "dist:mac": "pnpm run build && electron-builder --mac dmg --arm64 --x64",
+    "dist:mac:arm64": "pnpm run build && electron-builder --mac dmg --arm64",
+    "dist:mac:x64": "pnpm run build && electron-builder --mac dmg --x64",
+    "dist:win": "pnpm run build && electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.13",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "electron": "43.2.0",
+    "electron-builder": "26.15.3",
+    "electron-vite": "5.0.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "typescript": "5.9.3",
+    "vite": "8.0.13",
+    "vitest": "4.0.18"
+  },
+  "build": {
+    "appId": "org.replicateguard.desktop",
+    "productName": "ReplicateGuard",
+    "asar": true,
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "out/**/*",
+      "LICENSE",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/data",
+        "to": "data",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "LICENSE",
+        "to": "LICENSE.txt"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png",
+      "artifactName": "ReplicateGuard-${version}-Windows-${arch}-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ReplicateGuard",
+      "uninstallDisplayName": "ReplicateGuard"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "identity": "-",
+      "hardenedRuntime": false,
+      "icon": "build/icon.png",
+      "category": "public.app-category.education",
+      "artifactName": "ReplicateGuard-${version}-macOS-${arch}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "build/icon.png",
+      "category": "Science"
+    }
+  }
+}

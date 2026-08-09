@@ -1,0 +1,55 @@
+name: Build macOS desktop installers
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  macos:
+    runs-on: macos-14
+    strategy:
+      fail-fast: false
+      matrix:
+        arch:
+          - arm64
+          - x64
+    defaults:
+      run:
+        working-directory: desktop
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.9.0
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: desktop/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate desktop application
+        run: pnpm run check
+
+      - name: Build DMG
+        run: pnpm run dist:mac:${{ matrix.arch }}
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+
+      - name: Upload installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: ReplicateGuard-macOS-${{ matrix.arch }}
+          path: |
+            desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg
+            desktop/release/ReplicateGuard-*-macOS-${{ matrix.arch }}.dmg.blockmap

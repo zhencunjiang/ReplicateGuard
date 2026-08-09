@@ -1,0 +1,96 @@
+{
+  "software_version": "0.1.0",
+  "status": "FAIL",
+  "summary": {
+    "n_observations": 240,
+    "n_samples": 8,
+    "n_subjects": null,
+    "n_conditions": 2,
+    "conditions": [
+      "control",
+      "treated"
+    ],
+    "samples_per_condition": {
+      "control": 4,
+      "treated": 4
+    },
+    "cell_level_input": true,
+    "median_observations_per_sample": 30.0,
+    "pairing": "not_specified"
+  },
+  "formula_terms": [
+    "batch",
+    "condition"
+  ],
+  "design_columns": [
+    "Intercept",
+    "batch[run_2]",
+    "condition[treated]"
+  ],
+  "design_rank": 2,
+  "residual_degrees_of_freedom": 6,
+  "contrasts": [
+    {
+      "name": "treated vs control",
+      "reference": "control",
+      "level": "treated",
+      "estimable": false
+    }
+  ],
+  "issues": [
+    {
+      "code": "NON_ESTIMABLE_CONTRAST",
+      "severity": "ERROR",
+      "title": "One or more condition contrasts are not estimable",
+      "message": "The requested biological comparison cannot be separated from the other terms in the proposed design.",
+      "evidence": {
+        "contrasts": [
+          "treated vs control"
+        ]
+      },
+      "recommendation": "Redesign the experiment or remove only scientifically unjustified confounded terms; normalization cannot recover missing design information."
+    },
+    {
+      "code": "RANK_DEFICIENT_DESIGN",
+      "severity": "ERROR",
+      "title": "The proposed design matrix is rank deficient",
+      "message": "At least one model coefficient is a linear combination of other coefficients.",
+      "evidence": {
+        "n_samples": 8,
+        "n_columns": 3,
+        "rank": 2
+      },
+      "recommendation": "Remove redundant terms or collect samples that cross the confounded factors."
+    },
+    {
+      "code": "CONDITION_BATCH_ASSOCIATION",
+      "severity": "WARNING",
+      "title": "Condition and batch are nearly perfectly associated",
+      "message": "The biological effect may be difficult or impossible to separate from batch.",
+      "evidence": {
+        "cramers_v": 1.0,
+        "n_batches": 2
+      },
+      "recommendation": "Confirm estimability in the proposed model; redesign the experiment if condition and batch are fully confounded."
+    },
+    {
+      "code": "CELL_LEVEL_INPUT",
+      "severity": "INFO",
+      "title": "Cell-level metadata detected",
+      "message": "ReplicateGuard will evaluate inference at the sample level.",
+      "evidence": {
+        "n_observations": 240,
+        "n_samples": 8,
+        "median_observations_per_sample": 30.0
+      },
+      "recommendation": "Use sample-level pseudobulk counts or a sample-aware mixed model downstream."
+    }
+  ],
+  "recommendations": [
+    "Use sample-level pseudobulk counts or a sample-aware mixed model downstream.",
+    "Confirm estimability in the proposed model; redesign the experiment if condition and batch are fully confounded.",
+    "Remove redundant terms or collect samples that cross the confounded factors.",
+    "Redesign the experiment or remove only scientifically unjustified confounded terms; normalization cannot recover missing design information.",
+    "Use the biological sample, not the individual cell, as the unit of inference."
+  ]
+}

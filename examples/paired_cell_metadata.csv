@@ -1,0 +1,577 @@
+cell_id,sample,subject,condition,batch,cell_type
+D01_cont_cell001,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell002,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell003,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell004,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell005,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell006,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell007,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell008,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell009,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell010,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell011,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell012,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell013,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell014,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell015,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell016,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell017,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell018,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell019,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell020,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell021,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell022,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell023,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell024,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell025,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell026,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell027,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell028,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell029,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell030,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell031,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell032,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell033,D01_cont,D01,control,B1,Monocyte
+D01_cont_cell034,D01_cont,D01,control,B1,CD4 T
+D01_cont_cell035,D01_cont,D01,control,B1,CD8 T
+D01_cont_cell036,D01_cont,D01,control,B1,Monocyte
+D01_stim_cell001,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell002,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell003,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell004,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell005,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell006,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell007,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell008,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell009,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell010,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell011,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell012,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell013,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell014,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell015,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell016,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell017,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell018,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell019,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell020,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell021,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell022,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell023,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell024,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell025,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell026,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell027,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell028,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell029,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell030,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell031,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell032,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell033,D01_stim,D01,stimulated,B1,Monocyte
+D01_stim_cell034,D01_stim,D01,stimulated,B1,CD4 T
+D01_stim_cell035,D01_stim,D01,stimulated,B1,CD8 T
+D01_stim_cell036,D01_stim,D01,stimulated,B1,Monocyte
+D02_cont_cell001,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell002,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell003,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell004,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell005,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell006,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell007,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell008,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell009,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell010,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell011,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell012,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell013,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell014,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell015,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell016,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell017,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell018,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell019,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell020,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell021,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell022,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell023,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell024,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell025,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell026,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell027,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell028,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell029,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell030,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell031,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell032,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell033,D02_cont,D02,control,B2,Monocyte
+D02_cont_cell034,D02_cont,D02,control,B2,CD4 T
+D02_cont_cell035,D02_cont,D02,control,B2,CD8 T
+D02_cont_cell036,D02_cont,D02,control,B2,Monocyte
+D02_stim_cell001,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell002,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell003,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell004,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell005,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell006,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell007,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell008,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell009,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell010,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell011,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell012,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell013,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell014,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell015,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell016,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell017,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell018,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell019,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell020,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell021,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell022,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell023,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell024,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell025,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell026,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell027,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell028,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell029,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell030,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell031,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell032,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell033,D02_stim,D02,stimulated,B2,Monocyte
+D02_stim_cell034,D02_stim,D02,stimulated,B2,CD4 T
+D02_stim_cell035,D02_stim,D02,stimulated,B2,CD8 T
+D02_stim_cell036,D02_stim,D02,stimulated,B2,Monocyte
+D03_cont_cell001,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell002,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell003,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell004,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell005,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell006,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell007,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell008,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell009,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell010,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell011,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell012,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell013,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell014,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell015,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell016,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell017,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell018,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell019,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell020,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell021,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell022,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell023,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell024,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell025,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell026,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell027,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell028,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell029,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell030,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell031,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell032,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell033,D03_cont,D03,control,B1,Monocyte
+D03_cont_cell034,D03_cont,D03,control,B1,CD4 T
+D03_cont_cell035,D03_cont,D03,control,B1,CD8 T
+D03_cont_cell036,D03_cont,D03,control,B1,Monocyte
+D03_stim_cell001,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell002,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell003,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell004,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell005,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell006,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell007,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell008,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell009,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell010,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell011,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell012,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell013,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell014,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell015,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell016,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell017,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell018,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell019,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell020,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell021,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell022,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell023,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell024,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell025,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell026,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell027,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell028,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell029,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell030,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell031,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell032,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell033,D03_stim,D03,stimulated,B1,Monocyte
+D03_stim_cell034,D03_stim,D03,stimulated,B1,CD4 T
+D03_stim_cell035,D03_stim,D03,stimulated,B1,CD8 T
+D03_stim_cell036,D03_stim,D03,stimulated,B1,Monocyte
+D04_cont_cell001,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell002,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell003,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell004,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell005,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell006,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell007,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell008,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell009,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell010,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell011,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell012,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell013,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell014,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell015,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell016,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell017,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell018,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell019,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell020,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell021,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell022,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell023,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell024,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell025,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell026,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell027,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell028,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell029,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell030,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell031,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell032,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell033,D04_cont,D04,control,B2,Monocyte
+D04_cont_cell034,D04_cont,D04,control,B2,CD4 T
+D04_cont_cell035,D04_cont,D04,control,B2,CD8 T
+D04_cont_cell036,D04_cont,D04,control,B2,Monocyte
+D04_stim_cell001,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell002,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell003,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell004,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell005,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell006,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell007,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell008,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell009,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell010,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell011,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell012,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell013,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell014,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell015,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell016,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell017,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell018,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell019,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell020,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell021,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell022,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell023,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell024,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell025,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell026,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell027,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell028,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell029,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell030,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell031,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell032,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell033,D04_stim,D04,stimulated,B2,Monocyte
+D04_stim_cell034,D04_stim,D04,stimulated,B2,CD4 T
+D04_stim_cell035,D04_stim,D04,stimulated,B2,CD8 T
+D04_stim_cell036,D04_stim,D04,stimulated,B2,Monocyte
+D05_cont_cell001,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell002,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell003,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell004,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell005,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell006,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell007,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell008,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell009,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell010,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell011,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell012,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell013,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell014,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell015,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell016,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell017,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell018,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell019,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell020,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell021,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell022,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell023,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell024,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell025,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell026,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell027,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell028,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell029,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell030,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell031,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell032,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell033,D05_cont,D05,control,B1,Monocyte
+D05_cont_cell034,D05_cont,D05,control,B1,CD4 T
+D05_cont_cell035,D05_cont,D05,control,B1,CD8 T
+D05_cont_cell036,D05_cont,D05,control,B1,Monocyte
+D05_stim_cell001,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell002,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell003,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell004,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell005,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell006,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell007,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell008,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell009,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell010,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell011,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell012,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell013,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell014,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell015,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell016,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell017,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell018,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell019,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell020,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell021,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell022,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell023,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell024,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell025,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell026,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell027,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell028,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell029,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell030,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell031,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell032,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell033,D05_stim,D05,stimulated,B1,Monocyte
+D05_stim_cell034,D05_stim,D05,stimulated,B1,CD4 T
+D05_stim_cell035,D05_stim,D05,stimulated,B1,CD8 T
+D05_stim_cell036,D05_stim,D05,stimulated,B1,Monocyte
+D06_cont_cell001,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell002,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell003,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell004,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell005,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell006,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell007,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell008,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell009,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell010,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell011,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell012,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell013,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell014,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell015,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell016,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell017,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell018,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell019,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell020,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell021,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell022,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell023,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell024,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell025,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell026,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell027,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell028,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell029,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell030,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell031,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell032,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell033,D06_cont,D06,control,B2,Monocyte
+D06_cont_cell034,D06_cont,D06,control,B2,CD4 T
+D06_cont_cell035,D06_cont,D06,control,B2,CD8 T
+D06_cont_cell036,D06_cont,D06,control,B2,Monocyte
+D06_stim_cell001,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell002,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell003,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell004,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell005,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell006,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell007,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell008,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell009,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell010,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell011,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell012,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell013,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell014,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell015,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell016,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell017,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell018,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell019,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell020,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell021,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell022,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell023,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell024,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell025,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell026,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell027,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell028,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell029,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell030,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell031,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell032,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell033,D06_stim,D06,stimulated,B2,Monocyte
+D06_stim_cell034,D06_stim,D06,stimulated,B2,CD4 T
+D06_stim_cell035,D06_stim,D06,stimulated,B2,CD8 T
+D06_stim_cell036,D06_stim,D06,stimulated,B2,Monocyte
+D07_cont_cell001,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell002,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell003,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell004,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell005,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell006,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell007,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell008,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell009,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell010,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell011,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell012,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell013,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell014,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell015,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell016,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell017,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell018,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell019,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell020,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell021,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell022,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell023,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell024,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell025,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell026,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell027,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell028,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell029,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell030,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell031,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell032,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell033,D07_cont,D07,control,B1,Monocyte
+D07_cont_cell034,D07_cont,D07,control,B1,CD4 T
+D07_cont_cell035,D07_cont,D07,control,B1,CD8 T
+D07_cont_cell036,D07_cont,D07,control,B1,Monocyte
+D07_stim_cell001,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell002,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell003,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell004,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell005,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell006,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell007,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell008,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell009,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell010,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell011,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell012,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell013,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell014,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell015,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell016,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell017,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell018,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell019,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell020,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell021,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell022,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell023,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell024,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell025,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell026,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell027,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell028,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell029,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell030,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell031,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell032,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell033,D07_stim,D07,stimulated,B1,Monocyte
+D07_stim_cell034,D07_stim,D07,stimulated,B1,CD4 T
+D07_stim_cell035,D07_stim,D07,stimulated,B1,CD8 T
+D07_stim_cell036,D07_stim,D07,stimulated,B1,Monocyte
+D08_cont_cell001,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell002,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell003,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell004,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell005,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell006,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell007,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell008,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell009,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell010,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell011,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell012,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell013,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell014,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell015,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell016,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell017,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell018,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell019,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell020,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell021,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell022,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell023,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell024,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell025,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell026,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell027,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell028,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell029,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell030,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell031,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell032,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell033,D08_cont,D08,control,B2,Monocyte
+D08_cont_cell034,D08_cont,D08,control,B2,CD4 T
+D08_cont_cell035,D08_cont,D08,control,B2,CD8 T
+D08_cont_cell036,D08_cont,D08,control,B2,Monocyte
+D08_stim_cell001,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell002,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell003,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell004,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell005,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell006,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell007,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell008,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell009,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell010,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell011,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell012,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell013,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell014,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell015,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell016,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell017,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell018,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell019,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell020,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell021,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell022,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell023,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell024,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell025,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell026,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell027,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell028,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell029,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell030,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell031,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell032,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell033,D08_stim,D08,stimulated,B2,Monocyte
+D08_stim_cell034,D08_stim,D08,stimulated,B2,CD4 T
+D08_stim_cell035,D08_stim,D08,stimulated,B2,CD8 T
+D08_stim_cell036,D08_stim,D08,stimulated,B2,Monocyte

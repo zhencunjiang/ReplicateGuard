@@ -1,0 +1,3 @@
+set,barcodes,umi_q25,umi_median,umi_q75
+ReplicateGuard only,252,66.75,110.0,270.25
+Cell Ranger only,0,,,

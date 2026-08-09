@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a focused improvement to ReplicateGuard.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    attributes:
+      label: Research workflow need
+      description: Explain the analysis problem and why existing ReplicateGuard behavior is insufficient.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed behavior
+      description: Describe the input, expected output, and any relevant method or reference.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: List any existing tools or workarounds you have tried.

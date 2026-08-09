@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReplicateGuard design audit</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f7f8fa; --surface: #ffffff; --text: #17212b; --muted: #59636e;
+  --border: #d9dee5; --pass: #16794b; --review: #a25b00; --fail: #b42318;
+  --info: #2563a7; --warning: #a25b00; --error: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11161c; --surface: #19212a; --text: #eef3f8; --muted: #b6c0ca;
+    --border: #36414d; --pass: #53c98c; --review: #f0ae54; --fail: #ff8177;
+    --info: #78b7ef; --warning: #f0ae54; --error: #ff8177;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.55 system-ui, sans-serif; color: var(--text); background: var(--bg); }
+main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+h1, h2, h3 { line-height: 1.2; }
+h1 { margin-bottom: 6px; }
+h2 { margin-top: 36px; }
+.lede { color: var(--muted); margin-top: 0; }
+.status { display: inline-block; padding: 6px 12px; border: 2px solid currentColor; border-radius: 999px; font-weight: 700; }
+.status.pass { color: var(--pass); } .status.review { color: var(--review); } .status.fail { color: var(--fail); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.panel, .issue { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { width: 48%; }
+.issue { border-left: 5px solid var(--border); }
+.issue.info { border-left-color: var(--info); } .issue.warning { border-left-color: var(--warning); } .issue.error { border-left-color: var(--error); }
+.issue-heading { display: flex; justify-content: space-between; gap: 12px; }
+.severity { font-weight: 800; }
+.info .severity { color: var(--info); } .warning .severity { color: var(--warning); } .error .severity { color: var(--error); }
+dl { display: grid; grid-template-columns: minmax(120px, 1fr) 2fr; gap: 5px 12px; }
+dt { color: var(--muted); } dd { margin: 0; overflow-wrap: anywhere; }
+code { overflow-wrap: anywhere; }
+footer { color: var(--muted); margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>ReplicateGuard design audit</h1>
+    <p class="lede">Preflight validation for sample-aware single-cell differential expression</p>
+    <p class="status fail">FAIL</p>
+  </header>
+  <section>
+    <h2>Design summary</h2>
+    <div class="grid">
+      <div class="panel"><table><tr><th>N Observations</th><td>240</td></tr><tr><th>N Samples</th><td>8</td></tr><tr><th>N Subjects</th><td>not specified</td></tr><tr><th>N Conditions</th><td>2</td></tr><tr><th>Conditions</th><td>control, treated</td></tr><tr><th>Samples Per Condition</th><td>control: 4, treated: 4</td></tr><tr><th>Cell Level Input</th><td>True</td></tr><tr><th>Median Observations Per Sample</th><td>30.0</td></tr><tr><th>Pairing</th><td>not_specified</td></tr></table></div>
+      <div class="panel">
+        <p><strong>Proposed formula</strong><br><code>~ batch + condition</code></p>
+        <p><strong>Design columns</strong><br><code>Intercept, batch[run_2], condition[treated]</code></p>
+        <p><strong>Rank</strong>: 2</p>
+        <p><strong>Residual df</strong>: 6</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Contrast estimability</h2>
+    <div class="panel"><table><thead><tr><th>Contrast</th><th>Estimable</th></tr></thead><tbody><tr><td>treated vs control</td><td>no</td></tr></tbody></table></div>
+  </section>
+  <section>
+    <h2>Findings</h2>
+    <div class="grid">
+            <article class="issue error">
+              <div class="issue-heading">
+                <span class="severity">ERROR</span>
+                <code>NON_ESTIMABLE_CONTRAST</code>
+              </div>
+              <h3>One or more condition contrasts are not estimable</h3>
+              <p>The requested biological comparison cannot be separated from the other terms in the proposed design.</p>
+              <dl><dt>Contrasts</dt><dd>treated vs control</dd></dl>
+              <p><strong>Action:</strong> Redesign the experiment or remove only scientifically unjustified confounded terms; normalization cannot recover missing design information.</p>
+            </article>
+            
+            <article class="issue error">
+              <div class="issue-heading">
+                <span class="severity">ERROR</span>
+                <code>RANK_DEFICIENT_DESIGN</code>
+              </div>
+              <h3>The proposed design matrix is rank deficient</h3>
+              <p>At least one model coefficient is a linear combination of other coefficients.</p>
+              <dl><dt>N Samples</dt><dd>8</dd><dt>N Columns</dt><dd>3</dd><dt>Rank</dt><dd>2</dd></dl>
+              <p><strong>Action:</strong> Remove redundant terms or collect samples that cross the confounded factors.</p>
+            </article>
+            
+            <article class="issue warning">
+              <div class="issue-heading">
+                <span class="severity">WARNING</span>
+                <code>CONDITION_BATCH_ASSOCIATION</code>
+              </div>
+              <h3>Condition and batch are nearly perfectly associated</h3>
+              <p>The biological effect may be difficult or impossible to separate from batch.</p>
+              <dl><dt>Cramers V</dt><dd>1.0</dd><dt>N Batches</dt><dd>2</dd></dl>
+              <p><strong>Action:</strong> Confirm estimability in the proposed model; redesign the experiment if condition and batch are fully confounded.</p>
+            </article>
+            
+            <article class="issue info">
+              <div class="issue-heading">
+                <span class="severity">INFO</span>
+                <code>CELL_LEVEL_INPUT</code>
+              </div>
+              <h3>Cell-level metadata detected</h3>
+              <p>ReplicateGuard will evaluate inference at the sample level.</p>
+              <dl><dt>N Observations</dt><dd>240</dd><dt>N Samples</dt><dd>8</dd><dt>Median Observations Per Sample</dt><dd>30.0</dd></dl>
+              <p><strong>Action:</strong> Use sample-level pseudobulk counts or a sample-aware mixed model downstream.</p>
+            </article>
+            </div>
+  </section>
+  <section>
+    <h2>Recommended actions</h2>
+    <div class="panel"><ol><li>Use sample-level pseudobulk counts or a sample-aware mixed model downstream.</li><li>Confirm estimability in the proposed model; redesign the experiment if condition and batch are fully confounded.</li><li>Remove redundant terms or collect samples that cross the confounded factors.</li><li>Redesign the experiment or remove only scientifically unjustified confounded terms; normalization cannot recover missing design information.</li><li>Use the biological sample, not the individual cell, as the unit of inference.</li></ol></div>
+  </section>
+  <footer>Generated by ReplicateGuard 0.1.0.</footer>
+</main>
+</body>
+</html>

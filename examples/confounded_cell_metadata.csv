@@ -1,0 +1,241 @@
+cell_id,sample,condition,batch,cell_type
+C1_cell001,C1,control,run_1,CD4 T
+C1_cell002,C1,control,run_1,CD4 T
+C1_cell003,C1,control,run_1,CD4 T
+C1_cell004,C1,control,run_1,CD4 T
+C1_cell005,C1,control,run_1,CD4 T
+C1_cell006,C1,control,run_1,CD4 T
+C1_cell007,C1,control,run_1,CD4 T
+C1_cell008,C1,control,run_1,CD4 T
+C1_cell009,C1,control,run_1,CD4 T
+C1_cell010,C1,control,run_1,CD4 T
+C1_cell011,C1,control,run_1,CD4 T
+C1_cell012,C1,control,run_1,CD4 T
+C1_cell013,C1,control,run_1,CD4 T
+C1_cell014,C1,control,run_1,CD4 T
+C1_cell015,C1,control,run_1,CD4 T
+C1_cell016,C1,control,run_1,CD4 T
+C1_cell017,C1,control,run_1,CD4 T
+C1_cell018,C1,control,run_1,CD4 T
+C1_cell019,C1,control,run_1,CD4 T
+C1_cell020,C1,control,run_1,CD4 T
+C1_cell021,C1,control,run_1,Monocyte
+C1_cell022,C1,control,run_1,Monocyte
+C1_cell023,C1,control,run_1,Monocyte
+C1_cell024,C1,control,run_1,Monocyte
+C1_cell025,C1,control,run_1,Monocyte
+C1_cell026,C1,control,run_1,Monocyte
+C1_cell027,C1,control,run_1,Monocyte
+C1_cell028,C1,control,run_1,Monocyte
+C1_cell029,C1,control,run_1,Monocyte
+C1_cell030,C1,control,run_1,Monocyte
+C2_cell001,C2,control,run_1,CD4 T
+C2_cell002,C2,control,run_1,CD4 T
+C2_cell003,C2,control,run_1,CD4 T
+C2_cell004,C2,control,run_1,CD4 T
+C2_cell005,C2,control,run_1,CD4 T
+C2_cell006,C2,control,run_1,CD4 T
+C2_cell007,C2,control,run_1,CD4 T
+C2_cell008,C2,control,run_1,CD4 T
+C2_cell009,C2,control,run_1,CD4 T
+C2_cell010,C2,control,run_1,CD4 T
+C2_cell011,C2,control,run_1,CD4 T
+C2_cell012,C2,control,run_1,CD4 T
+C2_cell013,C2,control,run_1,CD4 T
+C2_cell014,C2,control,run_1,CD4 T
+C2_cell015,C2,control,run_1,CD4 T
+C2_cell016,C2,control,run_1,CD4 T
+C2_cell017,C2,control,run_1,CD4 T
+C2_cell018,C2,control,run_1,CD4 T
+C2_cell019,C2,control,run_1,CD4 T
+C2_cell020,C2,control,run_1,CD4 T
+C2_cell021,C2,control,run_1,Monocyte
+C2_cell022,C2,control,run_1,Monocyte
+C2_cell023,C2,control,run_1,Monocyte
+C2_cell024,C2,control,run_1,Monocyte
+C2_cell025,C2,control,run_1,Monocyte
+C2_cell026,C2,control,run_1,Monocyte
+C2_cell027,C2,control,run_1,Monocyte
+C2_cell028,C2,control,run_1,Monocyte
+C2_cell029,C2,control,run_1,Monocyte
+C2_cell030,C2,control,run_1,Monocyte
+C3_cell001,C3,control,run_1,CD4 T
+C3_cell002,C3,control,run_1,CD4 T
+C3_cell003,C3,control,run_1,CD4 T
+C3_cell004,C3,control,run_1,CD4 T
+C3_cell005,C3,control,run_1,CD4 T
+C3_cell006,C3,control,run_1,CD4 T
+C3_cell007,C3,control,run_1,CD4 T
+C3_cell008,C3,control,run_1,CD4 T
+C3_cell009,C3,control,run_1,CD4 T
+C3_cell010,C3,control,run_1,CD4 T
+C3_cell011,C3,control,run_1,CD4 T
+C3_cell012,C3,control,run_1,CD4 T
+C3_cell013,C3,control,run_1,CD4 T
+C3_cell014,C3,control,run_1,CD4 T
+C3_cell015,C3,control,run_1,CD4 T
+C3_cell016,C3,control,run_1,CD4 T
+C3_cell017,C3,control,run_1,CD4 T
+C3_cell018,C3,control,run_1,CD4 T
+C3_cell019,C3,control,run_1,CD4 T
+C3_cell020,C3,control,run_1,CD4 T
+C3_cell021,C3,control,run_1,Monocyte
+C3_cell022,C3,control,run_1,Monocyte
+C3_cell023,C3,control,run_1,Monocyte
+C3_cell024,C3,control,run_1,Monocyte
+C3_cell025,C3,control,run_1,Monocyte
+C3_cell026,C3,control,run_1,Monocyte
+C3_cell027,C3,control,run_1,Monocyte
+C3_cell028,C3,control,run_1,Monocyte
+C3_cell029,C3,control,run_1,Monocyte
+C3_cell030,C3,control,run_1,Monocyte
+C4_cell001,C4,control,run_1,CD4 T
+C4_cell002,C4,control,run_1,CD4 T
+C4_cell003,C4,control,run_1,CD4 T
+C4_cell004,C4,control,run_1,CD4 T
+C4_cell005,C4,control,run_1,CD4 T
+C4_cell006,C4,control,run_1,CD4 T
+C4_cell007,C4,control,run_1,CD4 T
+C4_cell008,C4,control,run_1,CD4 T
+C4_cell009,C4,control,run_1,CD4 T
+C4_cell010,C4,control,run_1,CD4 T
+C4_cell011,C4,control,run_1,CD4 T
+C4_cell012,C4,control,run_1,CD4 T
+C4_cell013,C4,control,run_1,CD4 T
+C4_cell014,C4,control,run_1,CD4 T
+C4_cell015,C4,control,run_1,CD4 T
+C4_cell016,C4,control,run_1,CD4 T
+C4_cell017,C4,control,run_1,CD4 T
+C4_cell018,C4,control,run_1,CD4 T
+C4_cell019,C4,control,run_1,CD4 T
+C4_cell020,C4,control,run_1,CD4 T
+C4_cell021,C4,control,run_1,Monocyte
+C4_cell022,C4,control,run_1,Monocyte
+C4_cell023,C4,control,run_1,Monocyte
+C4_cell024,C4,control,run_1,Monocyte
+C4_cell025,C4,control,run_1,Monocyte
+C4_cell026,C4,control,run_1,Monocyte
+C4_cell027,C4,control,run_1,Monocyte
+C4_cell028,C4,control,run_1,Monocyte
+C4_cell029,C4,control,run_1,Monocyte
+C4_cell030,C4,control,run_1,Monocyte
+T1_cell001,T1,treated,run_2,CD4 T
+T1_cell002,T1,treated,run_2,CD4 T
+T1_cell003,T1,treated,run_2,CD4 T
+T1_cell004,T1,treated,run_2,CD4 T
+T1_cell005,T1,treated,run_2,CD4 T
+T1_cell006,T1,treated,run_2,CD4 T
+T1_cell007,T1,treated,run_2,CD4 T
+T1_cell008,T1,treated,run_2,CD4 T
+T1_cell009,T1,treated,run_2,CD4 T
+T1_cell010,T1,treated,run_2,CD4 T
+T1_cell011,T1,treated,run_2,CD4 T
+T1_cell012,T1,treated,run_2,CD4 T
+T1_cell013,T1,treated,run_2,CD4 T
+T1_cell014,T1,treated,run_2,CD4 T
+T1_cell015,T1,treated,run_2,CD4 T
+T1_cell016,T1,treated,run_2,CD4 T
+T1_cell017,T1,treated,run_2,CD4 T
+T1_cell018,T1,treated,run_2,CD4 T
+T1_cell019,T1,treated,run_2,CD4 T
+T1_cell020,T1,treated,run_2,CD4 T
+T1_cell021,T1,treated,run_2,Monocyte
+T1_cell022,T1,treated,run_2,Monocyte
+T1_cell023,T1,treated,run_2,Monocyte
+T1_cell024,T1,treated,run_2,Monocyte
+T1_cell025,T1,treated,run_2,Monocyte
+T1_cell026,T1,treated,run_2,Monocyte
+T1_cell027,T1,treated,run_2,Monocyte
+T1_cell028,T1,treated,run_2,Monocyte
+T1_cell029,T1,treated,run_2,Monocyte
+T1_cell030,T1,treated,run_2,Monocyte
+T2_cell001,T2,treated,run_2,CD4 T
+T2_cell002,T2,treated,run_2,CD4 T
+T2_cell003,T2,treated,run_2,CD4 T
+T2_cell004,T2,treated,run_2,CD4 T
+T2_cell005,T2,treated,run_2,CD4 T
+T2_cell006,T2,treated,run_2,CD4 T
+T2_cell007,T2,treated,run_2,CD4 T
+T2_cell008,T2,treated,run_2,CD4 T
+T2_cell009,T2,treated,run_2,CD4 T
+T2_cell010,T2,treated,run_2,CD4 T
+T2_cell011,T2,treated,run_2,CD4 T
+T2_cell012,T2,treated,run_2,CD4 T
+T2_cell013,T2,treated,run_2,CD4 T
+T2_cell014,T2,treated,run_2,CD4 T
+T2_cell015,T2,treated,run_2,CD4 T
+T2_cell016,T2,treated,run_2,CD4 T
+T2_cell017,T2,treated,run_2,CD4 T
+T2_cell018,T2,treated,run_2,CD4 T
+T2_cell019,T2,treated,run_2,CD4 T
+T2_cell020,T2,treated,run_2,CD4 T
+T2_cell021,T2,treated,run_2,Monocyte
+T2_cell022,T2,treated,run_2,Monocyte
+T2_cell023,T2,treated,run_2,Monocyte
+T2_cell024,T2,treated,run_2,Monocyte
+T2_cell025,T2,treated,run_2,Monocyte
+T2_cell026,T2,treated,run_2,Monocyte
+T2_cell027,T2,treated,run_2,Monocyte
+T2_cell028,T2,treated,run_2,Monocyte
+T2_cell029,T2,treated,run_2,Monocyte
+T2_cell030,T2,treated,run_2,Monocyte
+T3_cell001,T3,treated,run_2,CD4 T
+T3_cell002,T3,treated,run_2,CD4 T
+T3_cell003,T3,treated,run_2,CD4 T
+T3_cell004,T3,treated,run_2,CD4 T
+T3_cell005,T3,treated,run_2,CD4 T
+T3_cell006,T3,treated,run_2,CD4 T
+T3_cell007,T3,treated,run_2,CD4 T
+T3_cell008,T3,treated,run_2,CD4 T
+T3_cell009,T3,treated,run_2,CD4 T
+T3_cell010,T3,treated,run_2,CD4 T
+T3_cell011,T3,treated,run_2,CD4 T
+T3_cell012,T3,treated,run_2,CD4 T
+T3_cell013,T3,treated,run_2,CD4 T
+T3_cell014,T3,treated,run_2,CD4 T
+T3_cell015,T3,treated,run_2,CD4 T
+T3_cell016,T3,treated,run_2,CD4 T
+T3_cell017,T3,treated,run_2,CD4 T
+T3_cell018,T3,treated,run_2,CD4 T
+T3_cell019,T3,treated,run_2,CD4 T
+T3_cell020,T3,treated,run_2,CD4 T
+T3_cell021,T3,treated,run_2,Monocyte
+T3_cell022,T3,treated,run_2,Monocyte
+T3_cell023,T3,treated,run_2,Monocyte
+T3_cell024,T3,treated,run_2,Monocyte
+T3_cell025,T3,treated,run_2,Monocyte
+T3_cell026,T3,treated,run_2,Monocyte
+T3_cell027,T3,treated,run_2,Monocyte
+T3_cell028,T3,treated,run_2,Monocyte
+T3_cell029,T3,treated,run_2,Monocyte
+T3_cell030,T3,treated,run_2,Monocyte
+T4_cell001,T4,treated,run_2,CD4 T
+T4_cell002,T4,treated,run_2,CD4 T
+T4_cell003,T4,treated,run_2,CD4 T
+T4_cell004,T4,treated,run_2,CD4 T
+T4_cell005,T4,treated,run_2,CD4 T
+T4_cell006,T4,treated,run_2,CD4 T
+T4_cell007,T4,treated,run_2,CD4 T
+T4_cell008,T4,treated,run_2,CD4 T
+T4_cell009,T4,treated,run_2,CD4 T
+T4_cell010,T4,treated,run_2,CD4 T
+T4_cell011,T4,treated,run_2,CD4 T
+T4_cell012,T4,treated,run_2,CD4 T
+T4_cell013,T4,treated,run_2,CD4 T
+T4_cell014,T4,treated,run_2,CD4 T
+T4_cell015,T4,treated,run_2,CD4 T
+T4_cell016,T4,treated,run_2,CD4 T
+T4_cell017,T4,treated,run_2,CD4 T
+T4_cell018,T4,treated,run_2,CD4 T
+T4_cell019,T4,treated,run_2,CD4 T
+T4_cell020,T4,treated,run_2,CD4 T
+T4_cell021,T4,treated,run_2,Monocyte
+T4_cell022,T4,treated,run_2,Monocyte
+T4_cell023,T4,treated,run_2,Monocyte
+T4_cell024,T4,treated,run_2,Monocyte
+T4_cell025,T4,treated,run_2,Monocyte
+T4_cell026,T4,treated,run_2,Monocyte
+T4_cell027,T4,treated,run_2,Monocyte
+T4_cell028,T4,treated,run_2,Monocyte
+T4_cell029,T4,treated,run_2,Monocyte
+T4_cell030,T4,treated,run_2,Monocyte

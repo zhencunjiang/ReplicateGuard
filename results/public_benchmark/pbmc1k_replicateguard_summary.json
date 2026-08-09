@@ -1,0 +1,41 @@
+{
+  "benchmark": "10x Genomics PBMC 1k 3' v3",
+  "source_directory": "/Users/zhencunjiang/Documents/Codex/2026-07-31/new-chat/benchmark-data/pbmc_1k_v3/raw_feature_bc_matrix",
+  "source_name": "raw_feature_bc_matrix",
+  "started_at": "2026-08-04T03:15:49.669Z",
+  "completed_at": "2026-08-04T03:16:45.885Z",
+  "node_version": "v24.14.0",
+  "platform": "darwin-arm64",
+  "settings": {
+    "expectedCells": 1000,
+    "ambientMaxUmis": 100,
+    "minimumCandidateUmis": 50,
+    "cellCallingFdr": 0.01,
+    "expectedDoubletRate": 0
+  },
+  "matrix": {
+    "n_features": 33538,
+    "n_barcodes": 6794880,
+    "n_nonzero_entries": 3394796
+  },
+  "result": {
+    "nBarcodes": 6794880,
+    "nNonzeroBarcodes": 234600,
+    "nCalledCells": 1474,
+    "nEmptyDroplets": 6793388,
+    "nAmbiguousDroplets": 18,
+    "nPredictedDoublets": 0,
+    "predictedDoubletRate": 0,
+    "kneeUmiThreshold": 4336,
+    "ambientBarcodeCount": 233235,
+    "medianCellUmis": 5917.5,
+    "medianGenesPerCell": 1779
+  },
+  "performance": {
+    "elapsed_seconds": 7.839298666,
+    "max_rss_kib": 1031376,
+    "user_cpu_seconds": 9.056566,
+    "system_cpu_seconds": 1.889858
+  },
+  "barcode_output": "pbmc1k_replicateguard_barcodes.csv.gz"
+}

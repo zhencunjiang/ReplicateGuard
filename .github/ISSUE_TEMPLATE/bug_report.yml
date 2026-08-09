@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible problem in ReplicateGuard.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: checkboxes
+    attributes:
+      label: Research-use notice
+      options:
+        - label: I understand that ReplicateGuard is research software and not a clinical diagnostic tool.
+          required: true
+  - type: input
+    attributes:
+      label: ReplicateGuard version
+      description: For example, 0.1.0.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Interface
+      options:
+        - Windows desktop
+        - macOS Apple Silicon desktop
+        - macOS Intel desktop
+        - Browser interface
+        - Python CLI or API
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest sequence that reproduces the problem. Do not upload identifiable or sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Logs or screenshots
+      description: Remove sample identifiers and sensitive information before attaching anything.

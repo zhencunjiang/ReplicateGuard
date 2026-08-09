@@ -1,0 +1,8 @@
+metric,observed,truth
+barcodes,500,500
+called_cells,200,200
+empty_droplets,300,300
+ambiguous_droplets,0,0
+predicted_doublets,40,40
+recovered_true_doublets,40,40
+false_doublet_calls,0,0

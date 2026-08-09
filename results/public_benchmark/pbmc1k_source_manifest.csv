@@ -1,0 +1,4 @@
+resource,provider,url,bytes,sha256,accessed
+Raw feature-barcode matrix,10x Genomics,https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_1k_v3/pbmc_1k_v3_raw_feature_bc_matrix.tar.gz,33963757,090b716c882c6b5b99cea784caea75a7e4d250eb009f132e1ea330bc7686acb0,2026-08-04
+Cell Ranger filtered feature-barcode matrix,10x Genomics,https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_1k_v3/pbmc_1k_v3_filtered_feature_bc_matrix.tar.gz,9610650,9beae9e7852b2514b4449ecdc5d5a762445289dcfbe5ddb70a44866380b673ce,2026-08-04
+Cell Ranger web summary,10x Genomics,https://cf.10xgenomics.com/samples/cell-exp/3.0.0/pbmc_1k_v3/pbmc_1k_v3_web_summary.html,3414365,6abfb9e32f41cf82f355c6cfa9fef5f775642329f9953114111d975416c98ecd,2026-08-04

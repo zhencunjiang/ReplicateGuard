@@ -1,0 +1,4 @@
+method,called_barcodes,overlap_with_cell_ranger,cell_ranger_reference_recall,positive_agreement_with_cell_ranger
+ReplicateGuard,1474,1222,1.0,0.8290366350067843
+Cell Ranger 3.0.0,1222,1222,1.0,1.0
+emptyDrops,1187,1158,0.9476268412438625,0.9755686604886268

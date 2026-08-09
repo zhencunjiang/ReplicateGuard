@@ -1,0 +1,79 @@
+{
+  "software_version": "0.1.0",
+  "status": "PASS",
+  "summary": {
+    "n_observations": 576,
+    "n_samples": 16,
+    "n_subjects": 8,
+    "n_conditions": 2,
+    "conditions": [
+      "control",
+      "stimulated"
+    ],
+    "samples_per_condition": {
+      "control": 8,
+      "stimulated": 8
+    },
+    "cell_level_input": true,
+    "median_observations_per_sample": 36.0,
+    "pairing": "complete"
+  },
+  "formula_terms": [
+    "subject",
+    "condition"
+  ],
+  "design_columns": [
+    "Intercept",
+    "subject[D02]",
+    "subject[D03]",
+    "subject[D04]",
+    "subject[D05]",
+    "subject[D06]",
+    "subject[D07]",
+    "subject[D08]",
+    "condition[stimulated]"
+  ],
+  "design_rank": 9,
+  "residual_degrees_of_freedom": 7,
+  "contrasts": [
+    {
+      "name": "stimulated vs control",
+      "reference": "control",
+      "level": "stimulated",
+      "estimable": true
+    }
+  ],
+  "issues": [
+    {
+      "code": "CELL_LEVEL_INPUT",
+      "severity": "INFO",
+      "title": "Cell-level metadata detected",
+      "message": "ReplicateGuard will evaluate inference at the sample level.",
+      "evidence": {
+        "n_observations": 576,
+        "n_samples": 16,
+        "median_observations_per_sample": 36.0
+      },
+      "recommendation": "Use sample-level pseudobulk counts or a sample-aware mixed model downstream."
+    },
+    {
+      "code": "COMPLETE_PAIRING",
+      "severity": "INFO",
+      "title": "Complete paired design detected",
+      "message": "Every subject is represented in every condition.",
+      "evidence": {
+        "n_subjects": 8,
+        "conditions": [
+          "control",
+          "stimulated"
+        ]
+      },
+      "recommendation": "Include `subject` as a blocking term in the design."
+    }
+  ],
+  "recommendations": [
+    "Use sample-level pseudobulk counts or a sample-aware mixed model downstream.",
+    "Include `subject` as a blocking term in the design.",
+    "Use the biological sample, not the individual cell, as the unit of inference."
+  ]
+}

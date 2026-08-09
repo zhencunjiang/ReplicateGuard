@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use ReplicateGuard, please cite the software and the accompanying Application Note."
+title: "ReplicateGuard"
+type: software
+version: 0.1.0
+date-released: 2026-08-09
+license: PolyForm-Noncommercial-1.0.0
+authors:
+  - family-names: "Jiang"
+    given-names: "Zhencun"
+    affiliation: "Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University"
+    email: "zhencunjiang@tongji.edu.cn"
+  - family-names: "Cai"
+    given-names: "Yuchen"
+    affiliation: "School of Life Sciences, Fudan University"
+    email: "yccai19@fudan.edu.cn"
+repository-code: "https://github.com/zhencunjiang/ReplicateGuard"
+abstract: "Local empty-droplet, doublet, and differential-expression design quality control for single-cell studies."

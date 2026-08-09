@@ -1,0 +1,99 @@
+{
+  "methods": [
+    {
+      "method": "ReplicateGuard",
+      "called_barcodes": 1474,
+      "overlap_with_cell_ranger": 1222,
+      "cell_ranger_reference_recall": 1.0,
+      "positive_agreement_with_cell_ranger": 0.8290366350067843
+    },
+    {
+      "method": "Cell Ranger 3.0.0",
+      "called_barcodes": 1222,
+      "overlap_with_cell_ranger": 1222,
+      "cell_ranger_reference_recall": 1.0,
+      "positive_agreement_with_cell_ranger": 1.0
+    },
+    {
+      "method": "emptyDrops",
+      "called_barcodes": 1187,
+      "overlap_with_cell_ranger": 1158,
+      "cell_ranger_reference_recall": 0.9476268412438625,
+      "positive_agreement_with_cell_ranger": 0.9755686604886268
+    }
+  ],
+  "pairwise": [
+    {
+      "method_a": "ReplicateGuard",
+      "method_b": "Cell Ranger 3.0.0",
+      "intersection": 1222,
+      "union": 1474,
+      "jaccard": 0.8290366350067843,
+      "overlap_over_a": 0.8290366350067843,
+      "overlap_over_b": 1.0
+    },
+    {
+      "method_a": "ReplicateGuard",
+      "method_b": "emptyDrops",
+      "intersection": 1186,
+      "union": 1475,
+      "jaccard": 0.8040677966101695,
+      "overlap_over_a": 0.8046132971506106,
+      "overlap_over_b": 0.9991575400168492
+    },
+    {
+      "method_a": "Cell Ranger 3.0.0",
+      "method_b": "emptyDrops",
+      "intersection": 1158,
+      "union": 1251,
+      "jaccard": 0.9256594724220624,
+      "overlap_over_a": 0.9476268412438625,
+      "overlap_over_b": 0.9755686604886268
+    }
+  ],
+  "membership": [
+    {
+      "membership": "ReplicateGuard + Cell Ranger 3.0.0 + emptyDrops",
+      "barcodes": 1158
+    },
+    {
+      "membership": "ReplicateGuard",
+      "barcodes": 224
+    },
+    {
+      "membership": "ReplicateGuard + Cell Ranger 3.0.0",
+      "barcodes": 64
+    },
+    {
+      "membership": "ReplicateGuard + emptyDrops",
+      "barcodes": 28
+    },
+    {
+      "membership": "emptyDrops",
+      "barcodes": 1
+    }
+  ],
+  "discordant_umi": [
+    {
+      "set": "ReplicateGuard only",
+      "barcodes": 252,
+      "umi_q25": 66.75,
+      "umi_median": 110.0,
+      "umi_q75": 270.25
+    },
+    {
+      "set": "Cell Ranger only",
+      "barcodes": 0,
+      "umi_q25": null,
+      "umi_median": null,
+      "umi_q75": null
+    }
+  ],
+  "checks": {
+    "raw_barcode_count": 6794880,
+    "cell_ranger_is_raw_subset": true,
+    "method_counts_match_sets": true,
+    "membership_reconciles_union": true,
+    "all_pairwise_metrics_bounded": true
+  }
+}

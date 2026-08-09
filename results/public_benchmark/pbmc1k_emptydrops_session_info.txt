@@ -1,0 +1,43 @@
+R version 4.5.3 (2026-03-11)
+Platform: aarch64-apple-darwin20.0.0
+Running under: macOS Sequoia 15.6.1
+
+Matrix products: default
+BLAS/LAPACK: /Users/zhencunjiang/Documents/Codex/2026-07-31/new-chat/benchmark-tools/r-emptydrops/lib/libopenblas.0.dylib;  LAPACK version 3.12.0
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Asia/Shanghai
+tzcode source: system (macOS)
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] data.table_1.18.4           DropletUtils_1.30.0        
+ [3] SingleCellExperiment_1.32.0 SummarizedExperiment_1.40.0
+ [5] Biobase_2.70.0              GenomicRanges_1.62.1       
+ [7] Seqinfo_1.0.0               IRanges_2.44.0             
+ [9] S4Vectors_0.48.1            BiocGenerics_0.56.0        
+[11] generics_0.1.4              MatrixGenerics_1.22.0      
+[13] matrixStats_1.5.0          
+
+loaded via a namespace (and not attached):
+ [1] Matrix_1.7-6              limma_3.66.0             
+ [3] compiler_4.5.3            Rcpp_1.1.2               
+ [5] scuttle_1.20.0            rhdf5filters_1.22.0      
+ [7] DelayedMatrixStats_1.32.0 parallel_4.5.3           
+ [9] BiocParallel_1.44.0       statmod_1.5.2            
+[11] lattice_0.22-9            XVector_0.50.0           
+[13] S4Arrays_1.10.1           DelayedArray_0.36.1      
+[15] h5mread_1.2.1             R.utils_2.13.0           
+[17] HDF5Array_1.38.0          SparseArray_1.10.10      
+[19] Rhdf5lib_1.32.0           grid_4.5.3               
+[21] locfit_1.5-9.12           edgeR_4.8.2              
+[23] sparseMatrixStats_1.22.0  dqrng_0.4.1              
+[25] rhdf5_2.54.1              R.methodsS3_1.8.2        
+[27] R.oo_1.27.1               codetools_0.2-20         
+[29] beachmat_2.26.0           abind_1.4-8              
+[31] tools_4.5.3              

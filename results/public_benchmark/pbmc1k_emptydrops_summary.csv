@@ -1,0 +1,2 @@
+method,lower,niters,fdr_threshold,n_barcodes,n_tested,n_called,n_limited,elapsed_seconds,user_cpu_seconds,system_cpu_seconds,started_at_utc,completed_at_utc,r_version,dropletutils_version
+DropletUtils::emptyDrops,100,10000,0.01,6794880,1365,1187,989,29.495,26.066,2.555,2026-08-04 04:26:17 UTC,2026-08-04 04:26:51 UTC,R version 4.5.3 (2026-03-11),1.30.0
